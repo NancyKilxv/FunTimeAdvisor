@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ftadvisor",
+  "version": "${version}",
+  "name": "FT Advisor",
+  "description": "Анализ аукциона и советы по развитию. Только читает экран, ничего не автоматизирует.",
+  "authors": ["kilxv"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.ftadvisor.FtAdvisorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
